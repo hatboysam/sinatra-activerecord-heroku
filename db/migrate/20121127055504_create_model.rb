@@ -8,5 +8,6 @@ class CreateModel < ActiveRecord::Migration
   end
 
   def down
+  	drop_table :models
   end
 end
